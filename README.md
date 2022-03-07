@@ -17,6 +17,8 @@ Note, however, that this will require you to comment out the 'bot.get(url)' line
 
 Second, you can upload your HTML to google drive, and copy the download link which comes up when you select 'download'. This can be somewhat tricky due to timing, but is possible. If you experience significant difficulty, it may be helpful to record your screen as the download page is displayed and type this url in yourself. Though it may seem possible to do so, you cannot use the link referencing the location of the HTML in your google drive - as the HTML and JavaScript of the surrounging page will be enmeshed with the HTML saved from Instagram - corrupting it.
 
+When you initiate bot.get(url) you may need to go through this process two or three times. Initially, you should recieve an error that the file cannot be found. When initiating the code again, the file should download, read, and process normally.
+
 ![image](https://user-images.githubusercontent.com/97333090/157093691-97fc9a0d-2a17-4209-996f-3aef55b4f002.png)
 
 Finally, enter the name of your file by replacing 'CrawlerDataWIP' with your desired name.
